@@ -18,7 +18,8 @@ Git
 \pard\pardeftab720\sl360\partightenfactor0
 \cf5 \cb6 \outl0\strokewidth0 \strokec5 Creating a 
 \f1\b \cf7 \strokec7 new
-\f0\b0 \cf5 \strokec5  branch is quick.\
+\f0\b0 \cf5 \strokec5  branch is quick & simple.\
 \pard\pardeftab720\sl360\partightenfactor0
-\cf2 \cb3 \outl0\strokewidth0 \
+\cf2 \cb3 \outl0\strokewidth0 	\
+\
 }
