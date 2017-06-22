@@ -13,8 +13,18 @@
         }
         function sendMessage() {
             ws.send($('#message').val());
+
+        }
+        ws.onmessage = function (e) {
+            $("#view").append(e.data)
         }
     </script>
+    <style type="text/css">
+        #view {
+            width: 200px;
+            border: 1px solid red;
+        }
+    </style>
 </head>
 <body>
 <div class="vertical-center">
@@ -31,6 +41,9 @@
             </button>
         </form>
     </div>
+</div>
+<div id="view">
+
 </div>
 </body>
 </html>

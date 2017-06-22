@@ -7,5 +7,9 @@ wss.on('connection', function (ws) {
     console.log('client connected');
     ws.on('message', function (message) {
         console.log(message);
+        if (message) {
+            ws.send(message)
+        }
     })
+
 })
